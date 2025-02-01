@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon } from "lucide-react";
-import "@/styles/global.css"; // Ensure the correct absolute path
+import "../styles/globals.css"; // Ensure the correct absolute path
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
@@ -11,15 +11,16 @@ export default function Portfolio() {
     name: "Varikuti Yaswanthreddy",
     title: "Programmer Analyst (Data Engineer) at Cognizant",
     location: "Andhra Pradesh, India",
-    contact: "Yyaswanthreddy5@gmail.com | 7997792835",
-    linkedin: "https://www.linkedin.com/in/varikuti-yaswanthreddy",
+    contact: "yaswanthreddyvarikuti@gmail.com | 7997792835",
+    LinkedIn: "https://www.linkedin.com/in/varikuti-yaswanthreddy",
     skills: ["Amazon EMR", "Snowflake", "Informatica"],
     languages: ["English", "Hindi", "Telugu"],
     certifications: [
       "Artificial Intelligence",
       "Oracle Cloud Infrastructure 2024 AI Associate",
       "BigQuery ML Skill Badge",
-      "Python Programming"
+      "Python Programming",
+      "Snowflake- Snow PRO"
     ],
     experience: [
       {
