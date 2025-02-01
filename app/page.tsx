@@ -1,10 +1,10 @@
-"use client";
+'use client'  // Add
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon } from "lucide-react";
-import "app/globals.css"; // Ensure the correct absolute path
+import "./globals.css"; // Ensure the correct absolute path
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
