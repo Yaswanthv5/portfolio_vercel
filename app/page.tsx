@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon } from "lucide-react";
-import "../styles/globals.css"; // Ensure the correct absolute path
+import "app/globals.css"; // Ensure the correct absolute path
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
