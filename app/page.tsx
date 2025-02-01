@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { Sun, Moon } from "lucide-react";
 import "./globals.css"; // Ensure the correct absolute path
 
