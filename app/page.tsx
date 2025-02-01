@@ -1,8 +1,8 @@
 'use client'  // Add
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "../app/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import { Sun, Moon } from "lucide-react";
 import "./globals.css"; // Ensure the correct absolute path
 
