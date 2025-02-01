@@ -1,8 +1,8 @@
 'use client'  // Add
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import Button from "../app/components/ui/button";
 import { Sun, Moon } from "lucide-react";
 import "./globals.css"; // Ensure the correct absolute path
 
@@ -84,7 +84,7 @@ export default function Portfolio() {
         </motion.h2>
         <p className="mt-2">📍 {profile.location}</p>
         <p className="mt-2">📧 {profile.contact}</p>
-        <a href={profile.linkedin} target="_blank" className="text-blue-400 mt-2 inline-block">LinkedIn Profile</a>
+        <a href={profile.LinkedIn} target="_blank" className="text-blue-400 mt-2 inline-block">LinkedIn Profile</a>
         
         <h2 className="text-3xl mt-8 font-semibold">Experience</h2>
         <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
